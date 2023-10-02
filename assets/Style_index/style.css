@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    background-color: black;
+}
+
+.mural {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    gap: 60px;
+}
+
+h1 {
+    color: white;
+    font-family: Monaco, monospace;
+    margin-bottom: 0px;
+}
+
+.cards {
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: center;
+    width: 350px;
+    height: 350px;
+    /* border: 1px solid black; */
+    font-size: 2em;
+    background-color: rgb(18, 57, 165);
+    color: rgb(255, 251, 17);
+    font-family: Monaco, monospace;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background-color: darkblue;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.espaco {
+    height: 20px;
+}
